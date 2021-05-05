@@ -10,7 +10,8 @@ driver.get('https://web.whatsapp.com/')
 time.sleep(20)
 
 #define contatos e grupos para enviar a mensagem
-contatos = ["HCTM"]
+#IMPORTANTE: o contato deve ser inserido na lista considerando letras maiúsculas, minúsculas e caracteres especiais.
+contatos = ["Contato 1"]
 mensagem = "mensagem teste"
 
 #campo responsável pela pesquisa de contatos "copyable-text selectable-text"
